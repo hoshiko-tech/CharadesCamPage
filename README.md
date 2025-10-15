@@ -142,12 +142,12 @@ Replace `#` with your actual App Store and Google Play URLs:
 ### Update Contact Emails
 
 Replace placeholder emails if needed:
-- `support@charadescam.app`
-- `privacy@charadescam.app`
-- `legal@charadescam.app`
-- `bugs@charadescam.app`
-- `feedback@charadescam.app`
-- `info@charadescam.app`
+- `support@charades.cam`
+- `privacy@charades.cam`
+- `legal@charades.cam`
+- `bugs@charades.cam`
+- `feedback@charades.cam`
+- `info@charades.cam`
 
 Set up email forwarding or create real inboxes for these addresses.
 
@@ -263,8 +263,8 @@ cp -r ../CharadesCam/assets ./assets
 ## Support
 
 For questions about the website, contact:
-- Email: info@charadescam.app
-- For app support: support@charadescam.app
+- Email: info@charades.cam
+- For app support: support@charades.cam
 
 ---
 
