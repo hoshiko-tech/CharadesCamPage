@@ -52,75 +52,6 @@ Then visit `http://localhost:8000` in your browser.
 
 ## Deployment Options
 
-### Option 1: GitHub Pages (Recommended - Free & Easy)
-
-1. Create a new GitHub repository
-2. Push this directory to the repository:
-   ```bash
-   cd CharadesCamPage
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   git push -u origin main
-   ```
-3. Go to your repository Settings > Pages
-4. Select "Deploy from a branch" and choose "main" branch
-5. Your site will be live at `https://YOUR_USERNAME.github.io/YOUR_REPO/`
-
-**Custom Domain:**
-- In repository settings, add your custom domain
-- Update your DNS settings with a CNAME record pointing to `YOUR_USERNAME.github.io`
-
-### Option 2: Netlify (Free with drag-and-drop)
-
-1. Go to [netlify.com](https://www.netlify.com/)
-2. Sign up for a free account
-3. Drag and drop the `CharadesCamPage` folder onto the Netlify dashboard
-4. Your site is live instantly!
-5. Optional: Configure a custom domain in site settings
-
-**Deploy via Git (Alternative):**
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
-
-# Deploy
-cd CharadesCamPage
-netlify deploy --prod
-```
-
-### Option 3: Vercel (Free with excellent performance)
-
-1. Go to [vercel.com](https://vercel.com/)
-2. Sign up and import your GitHub repository
-3. Vercel will auto-detect it's a static site
-4. Deploy!
-
-**Using Vercel CLI:**
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Deploy
-cd CharadesCamPage
-vercel --prod
-```
-
-### Option 4: Cloudflare Pages (Free with CDN)
-
-1. Go to [Cloudflare Pages](https://pages.cloudflare.com/)
-2. Connect your GitHub account
-3. Select your repository
-4. Configure:
-   - Build command: (leave empty)
-   - Build output directory: `/`
-5. Deploy!
-
-### Option 5: Traditional Web Hosting
-
-Upload the entire `CharadesCamPage` directory to your web hosting via FTP/SFTP.
 
 ## Customization
 
@@ -133,7 +64,7 @@ Replace `#` with your actual App Store and Google Play URLs:
 
 ```html
 <!-- iOS App Store -->
-<a href="https://apps.apple.com/app/YOUR_APP_ID">
+<a href="https://apps.apple.com/app/APP_ID">
 
 <!-- Google Play Store -->
 <a href="https://play.google.com/store/apps/details?id=tech.hoshiko.charadescam">
@@ -191,9 +122,9 @@ Apple and Google require certain pages for app submission:
 - Required field in app submission forms
 
 When submitting your app, use these URLs:
-- **Privacy Policy URL**: `https://yourdomain.com/privacy.html`
-- **Terms of Service URL**: `https://yourdomain.com/terms.html`
-- **Support URL**: `https://yourdomain.com/support.html`
+- **Privacy Policy URL**: `https://charades.cam/privacy.html`
+- **Terms of Service URL**: `https://charades.cam/terms.html`
+- **Support URL**: `https://charades.cam/support.html`
 
 ## SEO Optimization
 
@@ -258,7 +189,7 @@ cp -r ../CharadesCam/assets ./assets
 
 ## License
 
-© 2025 CharadesCam by Hoshiko Tech. All rights reserved.
+© 2025 CharadesCam by Hoshiko Tech Ltd. All rights reserved.
 
 ## Support
 
@@ -267,5 +198,3 @@ For questions about the website, contact:
 - For app support: support@charades.cam
 
 ---
-
-**Ready to deploy!** Choose your deployment method above and get your site live in minutes.
